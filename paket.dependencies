@@ -1,0 +1,8 @@
+source https://api.nuget.org/v3/index.json
+
+storage: none
+strategy: min
+
+nuget Microsoft.Extensions.Logging >= 6.0.0
+nuget Newtonsoft.Json >= 12.0.0
+nuget Serilog >= 2.10.0

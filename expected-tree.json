@@ -1,0 +1,134 @@
+{
+  "_comment": "Expected dependency tree for paket-strategy-min probe. Fields marked PLACEHOLDER must be substituted by the scan runner at comparison time. Key invariant: all versions must match the MINIMUM resolved values in paket.lock, not latest available.",
+  "updateType": "OVERRIDE",
+  "type": "UA",
+  "agent": "paket",
+  "agentVersion": "PLACEHOLDER",
+  "pluginVersion": "PLACEHOLDER",
+  "orgToken": "PLACEHOLDER",
+  "userKey": "PLACEHOLDER",
+  "timeStamp": 0,
+  "requesterEmail": "PLACEHOLDER",
+  "aggregateModules": false,
+  "preserveModuleStructure": true,
+  "extraProperties": {
+    "contributionsAvailable": "PLACEHOLDER",
+    "commitUrl": "PLACEHOLDER",
+    "gitHubInstallationId": "PLACEHOLDER",
+    "scmApplicationId": "PLACEHOLDER",
+    "branchName": "main",
+    "checkRunId": "PLACEHOLDER",
+    "userOrgToken": "PLACEHOLDER",
+    "commitId": "PLACEHOLDER",
+    "scmInstallationId": "PLACEHOLDER",
+    "repository": "paket-strategy-min",
+    "scaResults": "PLACEHOLDER"
+  },
+  "scanSummaryInfo": {
+    "totalElapsedTime": 0,
+    "stepsSummaryInfo": [],
+    "packageManagers": ["paket"],
+    "isPrivileged": false,
+    "scanMethod": {
+      "type": "UA"
+    }
+  },
+  "contributions": [],
+  "projects": [
+    {
+      "projectToken": "PLACEHOLDER",
+      "dependencies": [
+        {
+          "groupId": "",
+          "artifactId": "Microsoft.Extensions.Logging",
+          "version": "6.0.0",
+          "systemPath": "",
+          "optional": false,
+          "filename": "paket.lock",
+          "dependencyType": "NUGET",
+          "dependencyFile": "paket.lock",
+          "children": [
+            {
+              "groupId": "",
+              "artifactId": "Microsoft.Extensions.DependencyInjection.Abstractions",
+              "version": "6.0.0",
+              "systemPath": "",
+              "optional": false,
+              "filename": "paket.lock",
+              "dependencyType": "NUGET",
+              "dependencyFile": "paket.lock",
+              "children": null
+            },
+            {
+              "groupId": "",
+              "artifactId": "Microsoft.Extensions.Logging.Abstractions",
+              "version": "6.0.0",
+              "systemPath": "",
+              "optional": false,
+              "filename": "paket.lock",
+              "dependencyType": "NUGET",
+              "dependencyFile": "paket.lock",
+              "children": null
+            },
+            {
+              "groupId": "",
+              "artifactId": "Microsoft.Extensions.Options",
+              "version": "6.0.0",
+              "systemPath": "",
+              "optional": false,
+              "filename": "paket.lock",
+              "dependencyType": "NUGET",
+              "dependencyFile": "paket.lock",
+              "children": [
+                {
+                  "groupId": "",
+                  "artifactId": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "version": "6.0.0",
+                  "systemPath": "",
+                  "optional": false,
+                  "filename": "paket.lock",
+                  "dependencyType": "NUGET",
+                  "dependencyFile": "paket.lock",
+                  "children": null
+                },
+                {
+                  "groupId": "",
+                  "artifactId": "Microsoft.Extensions.Primitives",
+                  "version": "6.0.0",
+                  "systemPath": "",
+                  "optional": false,
+                  "filename": "paket.lock",
+                  "dependencyType": "NUGET",
+                  "dependencyFile": "paket.lock",
+                  "children": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "groupId": "",
+          "artifactId": "Newtonsoft.Json",
+          "version": "12.0.1",
+          "systemPath": "",
+          "optional": false,
+          "filename": "paket.lock",
+          "dependencyType": "NUGET",
+          "dependencyFile": "paket.lock",
+          "children": null
+        },
+        {
+          "groupId": "",
+          "artifactId": "Serilog",
+          "version": "2.10.0",
+          "systemPath": "",
+          "optional": false,
+          "filename": "paket.lock",
+          "dependencyType": "NUGET",
+          "dependencyFile": "paket.lock",
+          "children": null
+        }
+      ]
+    }
+  ]
+}

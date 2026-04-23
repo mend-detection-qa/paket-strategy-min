@@ -1,0 +1,14 @@
+NUGET
+  remote: https://api.nuget.org/v3/index.json
+    Microsoft.Extensions.DependencyInjection.Abstractions (6.0.0)
+    Microsoft.Extensions.Logging (6.0.0)
+      Microsoft.Extensions.DependencyInjection.Abstractions (>= 6.0.0)
+      Microsoft.Extensions.Logging.Abstractions (>= 6.0.0)
+      Microsoft.Extensions.Options (>= 6.0.0)
+    Microsoft.Extensions.Logging.Abstractions (6.0.0)
+    Microsoft.Extensions.Options (6.0.0)
+      Microsoft.Extensions.DependencyInjection.Abstractions (>= 6.0.0)
+      Microsoft.Extensions.Primitives (>= 6.0.0)
+    Microsoft.Extensions.Primitives (6.0.0)
+    Newtonsoft.Json (12.0.1)
+    Serilog (2.10.0)
